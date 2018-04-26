@@ -1,0 +1,26 @@
+{
+  "name": "dob-express",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "nodemon -V ./bin/www -e hbs"
+  },
+  "dependencies": {
+    "bcrypt": "^2.0.1",
+    "connect-flash": "^0.1.1",
+    "cookie-parser": "~1.4.3",
+    "cookie-session": "^2.0.0-beta.3",
+    "debug": "~2.6.9",
+    "express": "~4.16.0",
+    "hbs": "^4.0.1",
+    "http-errors": "~1.6.2",
+    "morgan": "~1.9.0",
+    "passport": "^0.4.0",
+    "passport-facebook": "^2.1.1",
+    "passport-kakao": "^0.0.5",
+    "passport-local": "^1.0.0",
+    "passport-naver": "^1.0.6",
+    "promise-mysql": "^3.2.1",
+    "serve-favicon": "^2.5.0"
+  }
+}
