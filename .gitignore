@@ -1,4 +1,5 @@
 # Configurations
+commons/secrets.js
 
 # Backup
 *.bak
